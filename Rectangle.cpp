@@ -11,10 +11,10 @@ Rectangle::~Rectangle()
 
 void Rectangle::Size(float a,float b)
 {
-	return void( a * b);
+	area= a * b;
 }
 
 void Rectangle::Draw()
 {
-	printf("Rectangle‚Ì–ÊÏ‚Í%f\n",&Rectangle::Size);
+	printf("Rectangle‚Ì–ÊÏ‚Í%f\n",area);
 }

@@ -14,10 +14,10 @@ void Circle::Size(float a,float b)
 	/*float result;
 	result = a * a * pi;
 	return  result;*/
-	return void(a * a * b);
+	area=a * a * b;
 }
 
 void Circle::Draw()
 {
-	printf("Circle‚Ì–ÊÏ‚Í%f\n",&Circle::Size);
+	printf("Circle‚Ì–ÊÏ‚Í%f\n",area);
 }
